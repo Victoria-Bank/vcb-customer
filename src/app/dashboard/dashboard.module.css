@@ -11,3 +11,94 @@
 	flex-direction: column;
 	overflow-y: scroll;
 }
+
+.main_home {
+	padding: 1.5rem 1.5rem 0rem 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 2rem;
+}
+
+.select__account {
+	display: flex;
+	flex-direction: column;
+}
+
+.green option {
+	background-color: #0f0;
+}
+
+.pending_tasks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.task_pending {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	border: #fff;
+	cursor: pointer;
+	color: var(--color-navy);
+	transition: 0.3s;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.9rem;
+}
+
+.icons_pending {
+	font-size: 2rem;
+	color: var(--color-gold);
+	margin-bottom: 0.5rem;
+}
+
+.task_pending_two {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 1rem 1rem;
+	margin: 0.75rem 0rem;
+	border-radius: 0.5rem;
+	color: var(--color-navy);
+}
+
+.task_pending:hover {
+	background-color: var(--color-gold);
+	color: white;
+}
+
+.task_pending h3 {
+	color: var(--color-gold);
+	font-size: 0.8rem;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1rem;
+}
+
+.welcome {
+	display: flex;
+	justify-content: space-between;
+}
+
+.greetings_main {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.greetings {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+.lastlogin {
+	margin-bottom: 1rem;
+}

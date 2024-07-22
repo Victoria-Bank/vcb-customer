@@ -1,0 +1,30 @@
+.account_card {
+	background-color: var(--color-navy);
+	margin-top: 1rem;
+	padding: 1.5rem 2rem;
+	border-radius: 1rem;
+	color: white;
+	min-height: 212px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.logo_chip {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+
+.balance_card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainbalance h4 {
+	color: var(--color-gold);
+	font-size: 1.5rem;
+	font-weight: 300;
+}
